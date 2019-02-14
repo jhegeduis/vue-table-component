@@ -1,5 +1,5 @@
 <template>
-    <div class="table-component">
+    <!--<div class="table-component">
         <div v-if="showFilter && filterableColumnExists" class="table-component__filter">
             <input
                     :class="fullFilterInputClass"
@@ -12,7 +12,7 @@
                     @click="filter = ''"
                     class="table-component__filter__clear"
             >×</a>
-        </div>
+        </div>-->
 
         <div class="table-component__table-wrapper">
             <table :class="fullTableClass">
@@ -45,9 +45,9 @@
             </table>
         </div>
 
-        <div v-if="displayedRows.length === 0" class="table-component__message">
+        <!--<div v-if="displayedRows.length === 0" class="table-component__message">
             {{ filterNoResults }}
-        </div>
+        </div>-->
 
 
         <div style="display:none;">
